@@ -81,3 +81,8 @@ body {
     color: #253b80;
     background: white;
 }
+
+.icon {
+    position: relative;
+    left: 30rem;
+}
