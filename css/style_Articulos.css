@@ -1,0 +1,83 @@
+/*################ ESTILOS BASE #################*/
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+}
+
+.container {
+    width: 1120px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+/*################ ENCABEZADO #################*/
+
+.encabezado {
+    height: 60px;
+    background-color: #253b80;
+    width: 100%;
+}
+
+.barra-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.barra-nav li a {
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.logo {
+    height: 40px;
+    border: white 2px solid;
+    padding: 0;
+    margin-top: 7px;
+}
+
+.barra-nav a:hover {
+    color: #253b80;
+    background: white;
+}
+
+
+/*################ PIE DE PAGINA #################*/
+
+.pie-pagina {
+    background: #253b80;
+    padding-top: 20px;
+    height: 40px;
+    margin: 25rem 0 0 0;
+}
+
+.columna ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.columna li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.columna a:hover {
+    color: #253b80;
+    background: white;
+}
