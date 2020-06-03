@@ -1,92 +1,145 @@
-/*################ ESTILOS BASE #################*/
-
-body {
-    font-family: 'Roboto Slab', serif;
-    background-color: white;
-}
-
-.container {
-    width: 1120px;
-    height: 100%;
-    margin: 0 auto;
-}
-
-
-/*################ ENCABEZADO #################*/
-
-.encabezado {
-    height: 60px;
-    background-color: #253b80;
-    width: 100%;
-}
-
-.barra-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.barra-nav li a {
-    color: white;
-    text-decoration: none;
-    line-height: 60px;
-    font-weight: 800;
-    font-size: 25px;
-}
-
-.logo {
-    height: 40px;
-    border: white 2px solid;
-    padding: 0;
-    margin-top: 7px;
-}
-
-.barra-nav a:hover {
-    color: #253b80;
-    background: white;
-    padding: 60px 25%;
-}
-
-
-/*################ PIE DE PAGINA #################*/
-
-.pie-pagina {
-    background: #253b80;
-    padding-top: 20px;
-    height: 40px;
-    margin: 25rem 0 0 0;
-}
-
-.columna ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 50%;
-}
-
-.columna li a {
-    color: white;
-    text-decoration: none;
-    font-weight: 100;
-    font-size: 17px;
-    line-height: 1.6;
-}
-
-.columna a:hover {
-    color: #253b80;
-    background: white;
-}
-
-.icon {
-    position: relative;
-    left: 34rem;
-    padding: 13px 13px;
-    border-radius: 50%;
-    text-align: center;
-}
+    /*################ ESTILOS BASE #################*/
+    
+    body {
+        font-family: 'Roboto Slab', serif;
+        background-color: white;
+    }
+    
+    .container {
+        width: 1120px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    /*################ ENCABEZADO #################*/
+    
+    .encabezado {
+        height: 60px;
+        background-color: #253b80;
+        width: 100%;
+    }
+    
+    .barra-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .barra-nav li a {
+        color: white;
+        text-decoration: none;
+        line-height: 60px;
+        font-weight: 800;
+        font-size: 25px;
+    }
+    
+    .logo {
+        height: 40px;
+        border: white 2px solid;
+        padding: 0;
+        margin-top: 7px;
+    }
+    
+    .barra-nav a:hover {
+        color: #253b80;
+        background: white;
+        padding: 60px 25%;
+    }
+    /*################ PIE DE PAGINA #################*/
+    
+    .pie-pagina {
+        background: #253b80;
+        padding-top: 20px;
+        height: 40px;
+        margin: 25rem 0 0 0;
+    }
+    
+    .columna {
+        margin-bottom: 10px;
+    }
+    
+    .columna ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 60%;
+    }
+    
+    .columna li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 100;
+        font-size: 17px;
+        line-height: 1.6;
+    }
+    
+    .columna a:hover {
+        color: #253b80;
+        background: white;
+    }
+    
+    .icon {
+        position: relative;
+        left: 27rem;
+        padding: 13px 13px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    
+    .copy-right {
+        color: #999;
+        margin-top: 6px;
+    }
+    /*################ ARTICULOS #################*/
+    
+    .subtitulo h1 {
+        font-size: 28px;
+        font-weight: 800;
+        margin: 2rem;
+        width: 100%;
+        text-align: left;
+        position: absolute;
+    }
+    
+    .imagen img {
+        left: 100;
+        top: 100;
+        width: 230px;
+        height: 230px;
+        position: relative;
+        margin: 7rem 2rem;
+        float: left;
+    }
+    
+    .container article {
+        width: 80%;
+        box-sizing: border-box;
+        text-align: justify;
+        padding-top: 6rem;
+        padding-bottom: 1rem;
+    }
+    
+    .container h2 {
+        font-size: 40px;
+        font-weight: 300;
+        margin: 1rem;
+    }
+    
+    .fecha {
+        font-size: 15px;
+        font-weight: 100;
+        margin: 1rem;
+    }
+    
+    .Actividad {
+        color: blue;
+    }
+    
+    .description {
+        font-size: 20px;
+    }
