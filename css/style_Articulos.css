@@ -85,5 +85,8 @@ body {
 
 .icon {
     position: relative;
-    left: 30rem;
+    left: 34rem;
+    padding: 13px 13px;
+    border-radius: 50%;
+    text-align: center;
 }
