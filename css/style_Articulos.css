@@ -6,7 +6,7 @@
     }
     
     .container {
-        width: 1220px;
+        width: 1020px;
         height: 100%;
         margin: 0 auto;
     }
@@ -53,7 +53,7 @@
         background: #253b80;
         padding-top: 20px;
         height: 40px;
-        margin: 10rem 0 0 0;
+        margin: 5rem 0 0 0;
     }
     
     .columna {
@@ -67,7 +67,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 60%;
+        width: 80%;
     }
     
     .columna li a {
@@ -81,11 +81,12 @@
     .columna a:hover {
         color: #253b80;
         background: white;
+        cursor: pointer;
     }
     
     .icon {
         position: relative;
-        left: 29rem;
+        left: 12rem;
         padding: 13px 13px;
         border-radius: 50%;
         text-align: center;
@@ -100,7 +101,7 @@
     .container article {
         background: white;
         display: flex;
-        width: 80%;
+        width: 70%;
         box-sizing: border-box;
         text-align: justify;
         padding-top: 2rem;
@@ -110,7 +111,7 @@
     .imagen img {
         left: 100;
         top: 100;
-        width: 80%;
+        width: 70%;
         max-width: 220px;
         margin: 2rem;
     }
@@ -118,12 +119,13 @@
     .description_general {
         margin: 0;
         padding: 0;
-        font-size: 20px;
+        font-size: 18px;
         width: 60%;
+        color: rgba(0, 0, 0, 0.9);
     }
     
     .subtitulo h1 {
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 800;
         margin: 2rem 0rem 0rem 0rem;
         width: 100%;
@@ -131,15 +133,22 @@
     }
     
     .container h2 {
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 600;
         margin: 1rem 0rem;
+    }
+    
+    .container h2:hover {
+        color: #253b80;
+        cursor: pointer;
     }
     
     .vista {
         width: 100%;
         margin: 1rem 0rem;
         letter-spacing: 0.20rem;
+        font-size: 15px;
+        font-weight: 200;
     }
     
     .vista i {
@@ -147,11 +156,36 @@
     }
     
     .fecha {
-        font-size: 17px;
+        font-size: 15px;
         font-weight: 200;
         margin: 1rem 0rem;
     }
     
     .Actividad {
         color: blue;
+    }
+    
+    .container button {
+        display: flex;
+        align-content: center;
+        margin: 1rem 20.5rem;
+    }
+    
+    .mas {
+        cursor: pointer;
+        background-color: white;
+        font-size: 17px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: black;
+        letter-spacing: 2px;
+        padding: 20px 60px;
+        border: #253b80 solid 2px;
+        border-radius: 5px;
+    }
+    
+    .mas:hover {
+        background-color: #253b80;
+        color: white;
+        cursor: pointer;
     }
