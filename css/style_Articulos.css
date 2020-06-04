@@ -74,8 +74,8 @@
         color: white;
         text-decoration: none;
         font-weight: 100;
-        font-size: 17px;
-        line-height: 1.6;
+        font-size: 20px;
+        line-height: 1.2;
     }
     
     .columna a:hover {
@@ -147,8 +147,8 @@
     }
     
     .fecha {
-        font-size: 15px;
-        font-weight: 100;
+        font-size: 17px;
+        font-weight: 200;
         margin: 1rem 0rem;
     }
     
