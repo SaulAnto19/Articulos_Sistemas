@@ -97,31 +97,33 @@
     }
     /*################ ARTICULOS #################*/
     
-    .subtitulo h1 {
-        font-size: 28px;
-        font-weight: 800;
-        margin: 2rem;
-        width: 100%;
-        text-align: left;
-        position: absolute;
+    .container article {
+        background: #CCC;
+        display: flex;
+        width: 80%;
+        box-sizing: border-box;
+        text-align: justify;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
     
     .imagen img {
         left: 100;
         top: 100;
-        width: 230px;
-        height: 230px;
-        position: relative;
-        margin: 7rem 2rem;
-        float: left;
+        width: 90%;
+        max-width: 250px;
     }
     
-    .container article {
-        width: 80%;
-        box-sizing: border-box;
-        text-align: justify;
-        padding-top: 6rem;
-        padding-bottom: 1rem;
+    .description_general {
+        font-size: 20px;
+        width: 70%;
+    }
+    
+    .subtitulo h1 {
+        font-size: 28px;
+        font-weight: 800;
+        margin: 2rem;
+        width: 100%;
     }
     
     .container h2 {
@@ -138,8 +140,4 @@
     
     .Actividad {
         color: blue;
-    }
-    
-    .description {
-        font-size: 20px;
     }
