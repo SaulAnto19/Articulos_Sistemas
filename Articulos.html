@@ -8,35 +8,28 @@
     <link rel="stylesheet" href="css/style_Articulos.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style_calendar.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!--encabezado-->
-    <header class="encabezado">
-        <div class="container">
-            <div class="barra-nav">
-                <ul>
-                    <li><a href="#">Eventos</a></li>
-                    <li><a href="#">Cultura</a></li>
-                    <li><img src="img/uni-logo(Oficial).jpg" class="logo" alt="logo"></li>
-                    <li><a href="#">Academica</a></li>
-                    <li><a href="#">Deportiva</a></li>
-                </ul>
-            </div>
-        </div>
-    </header>
-
-    <!--contenido-->
     <div class="container">
+        <!--encabezado-->
+        <header class="encabezado">
+            <a href="#">Eventos</a>
+            <a href="#">Cultura</a>
+            <img src="img/uni-logo(Oficial).jpg" class="logo" alt="logo">
+            <a href="#">Academica</a>
+            <a href="#">Deportiva</a>
+        </header>
+
+        <!--contenido-->
         <div class="subtitulo">
             <h1>Artículos Recientes</h1>
         </div>
-    </div>
 
-    <!--articulo N1-->
-    <div class="articulos">
-        <div class="container">
+        <!--articulo N1-->
+        <div class="articulos">
             <article>
                 <div class="imagen">
                     <img src="img/UNI_LOGO.png" alt="UNI">
@@ -56,12 +49,9 @@
                 </div>
             </article>
         </div>
-    </div>
 
 
-    <!--articulo N2-->
-    <div class="articulos">
-        <div class="container">
+        <div class="articulos">
             <article>
                 <div class="imagen">
                     <img src="img/ANECYS_LOGO.png" alt="ANECYS">
@@ -79,11 +69,8 @@
                 </div>
             </article>
         </div>
-    </div>
 
-    <!--articulo N3-->
-    <div class="articulos">
-        <div class="container">
+        <div class="articulos">
             <article>
                 <div class="imagen">
                     <img src="img/Feria.png" alt="ANECYS">
@@ -100,12 +87,10 @@
                     </div>
                 </div>
             </article>
-        </div>
-    </div>
 
-    <!--articulo N4-->
-    <div class="articulos">
-        <div class="container">
+        </div>
+
+        <div class="articulos">
             <article>
                 <div class="imagen">
                     <img src="img/ATOM_LOGO.png" alt="ANECYS">
@@ -122,12 +107,10 @@
                     </div>
                 </div>
             </article>
-        </div>
-    </div>
 
-    <!--articulo N5-->
-    <div class="articulos">
-        <div class="container">
+        </div>
+
+        <div class="articulos">
             <article>
                 <div class="imagen">
                     <img src="img/Logo_bcn.jpg" alt="ANECYS">
@@ -144,37 +127,97 @@
                     </div>
                 </div>
             </article>
+
         </div>
-    </div>
-
-    <div class="container">
-        <button class="mas">más artículos</button>
-    </div>
-
-    <!--pie de pagina-->
-
-    <footer class="pie-pagina">
-        <div class="container">
-            <div class="columna">
-                <ul>
-                    <li class="copy-right">@2020 Grupo4TN1-IS-03.</li>
-                    <li><a href="#"> Acerca de</a></li>
-                    <li><a href="#">Visitenos</a></li>
-                    <li><a href="#">Contáctenos</a></li>
-                    <li>
-                        <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li>
-                        <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
-                    </li>
-                </ul>
+        <!--
+        <div class="button">
+            <button class="mas">más artículos</button>
+        </div>
+-->
+        <!--Calendario-->
+        <div class="aside">
+            <div id="cal">
+                <div class="header">
+                    <span class="left button" id="prev"> &lang; </span>
+                    <span class="left hook"></span>
+                    <span class="month-year" id="label"> June 2020 </span>
+                    <span class="right hook"></span>
+                    <span class="right button" id="next"> &rang; </span>
+                </div>
+                <table id="days">
+                    <td>Dom</td>
+                    <td>Lun</td>
+                    <td>Mar</td>
+                    <td>Mie</td>
+                    <td>Jue</td>
+                    <td>vie</td>
+                    <td>sab</td>
+                </table>
+                <div id="cal-frame">
+                    <table class="curr">
+                        <tbody>
+                            <tr>
+                                <td class="nil"></td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td class="today">5</td>
+                                <td>6</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+                                <td>13</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                                <td>26</td>
+                                <td>27</td>
+                            </tr>
+                            <tr>
+                                <td>28</td>
+                                <td>29</td>
+                                <td>30</td>
+                                <td class="nil"></td>
+                                <td class="nil"></td>
+                                <td class="nil"></td>
+                                <td class="nil"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
-    </footer>
+        <!--pie de pagina-->
 
+        <footer class="pie-pagina">
+            <p class="copy-right">@2020 Grupo4TN1-IS-03.</p>
+            <a href="#"> Acerca de</a>
+            <a href="#">Visitenos</a>
+            <a href="#">Contáctenos</a>
+            <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+        </footer>
+    </div>
 </body>
 
 </html>
