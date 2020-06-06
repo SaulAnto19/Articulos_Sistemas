@@ -12,9 +12,6 @@ body {
 }
 
 .container {
-    width: 90%;
-    max-width: 1020px;
-    height: 100%;
     margin: auto;
     /*flex box*/
     display: flex;
@@ -65,7 +62,7 @@ body {
 
 .pie-pagina {
     background: #253b80;
-    padding: 15px 0;
+    padding: 10px 0;
     margin: 0;
     width: 100%;
     display: flex;
@@ -78,11 +75,12 @@ body {
     text-decoration: none;
     font-weight: 100;
     font-size: 15px;
+    padding: 0px 0px;
+    margin-top: 12px;
 }
 
 .pie-pagina a:hover {
-    color: #253b80;
-    background: white;
+    color: #999;
     cursor: pointer;
 }
 
@@ -91,13 +89,33 @@ body {
     margin-top: 6px;
 }
 
+.icon i {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background: #253b80;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+}
+
+.icon:hover i {
+    color: #253b80;
+    background: white;
+    cursor: pointer;
+}
+
 
 /*################ ARTICULOS #################*/
+
+.contenido {
+    display: flex;
+}
 
 .articulos {
     flex-direction: row;
     display: flex;
-    width: 70%;
+    width: 95%;
 }
 
 .articulos article {
@@ -122,7 +140,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    width: 60%;
+    width: 90%;
     color: rgba(0, 0, 0, 0.9);
 }
 
@@ -131,7 +149,7 @@ body {
     font-weight: 800;
     width: 100%;
     padding: 0;
-    margin: 1rem 0;
+    margin: 1rem 2rem;
     text-transform: uppercase;
     display: flex;
     justify-content: space-around;
@@ -177,7 +195,7 @@ body {
     flex: 1 1 auto;
     box-sizing: border-box;
     text-align: justify;
-    padding-bottom: 1rem;
+    padding-bottom: 4rem;
     overflow: hidden;
     width: 100%;
     justify-content: center;
@@ -204,17 +222,61 @@ body {
 }
 
 
-/*################ Calendario #################*/
+/*################ ASIDE #################*/
 
 .aside {
     flex: 1 1 auto;
-    display: flex;
-    justify-content: flex-end;
-    margin: 1rem 2rem 1rem 2rem;
+    padding: 50px;
+    height: 12%;
 }
 
+.search {
+    flex: 1 1 auto;
+    margin: 10px 10px 20px 10px;
+    padding: 10px;
+}
 
-/*
-.noticias {
-    flex 2 1 auto;
-}*/
+.search input[type="text"] {
+    border: none;
+    border-bottom: 2px solid #253b80;
+    background-color: transparent;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.search a {
+    color: #253b80;
+}
+
+.calendario {
+    flex: 1 1 auto;
+    margin: 10px 10px 200px 10px;
+    padding: 5px;
+}
+
+.noticias-populares {
+    flex: 2 1 auto;
+}
+
+.noticias-populares h3 {
+    color: #253b80;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid #253b80;
+    margin-bottom: 40px;
+}
+
+.noticias-populares h4 {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.noticias-populares p {
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
